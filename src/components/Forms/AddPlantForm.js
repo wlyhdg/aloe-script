@@ -18,12 +18,14 @@ const AddPlantForm = () => {
 
     const leggo = (e) => {
         e.preventDefault()
+        const time = new Date().toLocaleString();
         const result = {
             id: plants.length + 1,
             plant: name,
             description: details,
             waterFrequency: watering,
-            owner
+            owner,
+            createdAt: time
         }
         axios.post("http://localhost:3000/plants", result)
         .then(res => console.log(res))
@@ -32,12 +34,10 @@ const AddPlantForm = () => {
 
     return (
         <div className="plant__form">
-            <form onSubmit={leggo}>
-                <PlantInput funcs={funcs} />
-                <GreenButton>
-                    <span role="img" aria-labelledby="">🍃🍂 &nbsp; Add a plant &nbsp; 🍂🍃</span>
-                </GreenButton>
-            </form>
+            <PlantInput funcs={funcs} />
+            <GreenButton onClick={leggo}>
+                <span role="img" aria-labelledby="">🍃🍂 &nbsp; Add a plant &nbsp; 🍂🍃</span>
+            </GreenButton>
 
         </div>
     )

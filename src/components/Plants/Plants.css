@@ -6,4 +6,11 @@
 .plant {
     margin: 15px;
     padding: 20px;
+    position: relative;
+}
+
+.plant__cancel {
+    position: absolute;
+    right: 10px;
+    top: 10px;
 }

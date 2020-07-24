@@ -1,4 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
 .aloe__app {
     width: 80%;
     margin: 0 auto;
+}
+
+.aloe__app__name {
+    font-family: 'Bad Script', cursive;
+    margin: 0 5px;
+    text-decoration: underline;
 }

@@ -9,7 +9,7 @@ function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
       <div className="aloe__app">
-        <h1>Welcome to Aloe Script!</h1>
+        <h1>Welcome to <span className="aloe__app__name">Aloe Script</span>.</h1>
         <h2> — Plantography — </h2>
         <Plants />
 

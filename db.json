@@ -5,14 +5,16 @@
       "plant": "Skinny Bamboo",
       "waterFrequency": "Twice a week",
       "description": "🎋",
-      "owner": "Wael"
+      "owner": "Wael",
+      "createdAt": "Fri, 24 Jul 2020 06:37:54 GMT"
     },
     {
       "id": 2,
       "plant": "Foliage Upgrade",
       "waterFrequency": "Every 2-4 days",
       "description": "🌿",
-      "owner": "Wael"
+      "owner": "Wael",
+      "createdAt": "Fri, 24 Jul 2020 07:00:32 GMT"
     }
   ]
 }

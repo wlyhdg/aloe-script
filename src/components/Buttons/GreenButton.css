@@ -1,0 +1,8 @@
+.green__button {
+    border: green solid 1px;
+    transition: 0.5s all cubic-bezier(0.8, 0.085, 0.68, 0.53);
+}
+
+.green__button:hover {
+    border: transparent solid 5px;
+}
