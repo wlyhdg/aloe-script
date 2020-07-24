@@ -1,0 +1,18 @@
+{
+  "plants": [
+    {
+      "id": 1,
+      "plant": "Skinny Bamboo",
+      "waterFrequency": "Twice a week",
+      "description": "🎋",
+      "owner": "Wael"
+    },
+    {
+      "id": 2,
+      "plant": "Foliage Upgrade",
+      "waterFrequency": "Every 2-4 days",
+      "description": "🌿",
+      "owner": "Wael"
+    }
+  ]
+}

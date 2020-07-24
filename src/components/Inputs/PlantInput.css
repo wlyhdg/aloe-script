@@ -1,0 +1,12 @@
+.inputs__card {
+    margin: 10px;
+    padding: 100px;
+    border-top-right-radius: 550px;
+    border-bottom-left-radius: 550px;
+    text-align: left;
+}
+
+.inputs__card > * {
+    width: 70%;
+    margin: 0 auto;
+}
